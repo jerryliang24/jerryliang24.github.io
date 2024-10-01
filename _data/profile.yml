@@ -5,10 +5,10 @@ navbar_name: "Rongsheng Wang's Home Page"
 positions:
   - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Macao Polytechnic University" class="inline-badge"/></span> M.S., Macao Polytechnic University (2024)'
 
-email: "wrs6@88.com"
+email: "2467953405lzy@gmail.com"
 gscholar: SSaBaioAAAAJ
 sscholar: Rongsheng-Wang/2261313297
-github: wangrongsheng
+github: jerryliang24
 twitter: RongshengWang
 # wechat_qrcode: assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -24,27 +24,23 @@ short_bio: >-
 show_portrait: true
 portrait_url: assets/images/photos/profile_wrs.jpg
 portrait_caption: >-
-  我是王荣胜，欢迎访问我的主页~
+  我是梁志远，欢迎访问我的主页~
 
 education:
-- name: Macao Polytechnic University
-  logo: assets/images/badges/mpu_master.png
-  position: M.S. in Big Data and Internet of Things
-  date: Sep. 2022 - Jul. 2024
-- name: Henan Polytechnic University
-  logo: assets/images/badges/hpu_bs.png
-  position: B.S. in Computer Science (AI)
-  date: Sep. 2018 - Jul. 2022
+- name: University of Science and Technology of China
+  logo: assets/images/badges/Logo_of_University_of_Science_and_Technology_of_China.svg
+  position: B.S. in Artificial Intelligence
+  date: Sep. 2021 - 
   
 experience:
-- name: Qiyuan.Tech
-  logo: assets/images/badges/qiyuan.png
-  position: CTO, Reasercher
-  date: Oct. 2023 - Now
-- name: HKUST (GZ) 
-  logo: assets/images/badges/hkust-gz.png
-  position: Research Assistant (Supervisor is <a href="https://web.archive.org/web/20240717103203/https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Yun/yunbai">Yun Bai</a> and <a href="https://cee.rutgers.edu/xiang-liu">Xiang Liu</a>)
-  date: Feb. 2024 -	May 2024
+- name: IFLYTECH
+  logo: assets/images/badges/iflytech.png
+  position: Intern in Computer Vision
+  date: Aug. 2022 - Oct. 2022
+- name: National University of Singapore
+  logo: assets/images/badges/nus.png
+  position: Intern in High Performance Computing
+  date: Aug. 2024 - 
 
 
 awards:
