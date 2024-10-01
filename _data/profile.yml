@@ -1,9 +1,8 @@
 primary_name: "Zhiyuan Liang"
 secondary_name: ""
 navbar_name: "Zhiyuan Liang's Home Page"
-
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Macao Polytechnic University" class="inline-badge"/></span> M.S., Macao Polytechnic University (2024)'
+  - '<span class="no-break"><img src="assets/images/badges/Logo_of_University_of_Science_and_Technology_of_China.svg" alt="University of Science and Technology of China" class="inline-badge"/></span> B.S., University of Science and Technology of China (2024)'
 
 email: "2467953405lzy@gmail.com"
 gscholar: SSaBaioAAAAJ
@@ -11,15 +10,14 @@ github: jerryliang24
 # wechat_qrcode: assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-resume: assets/cv/Resume_RongshengWang.pdf
-# linkedin: your-linked-in-id
+resume: assets/cv/
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
   I am Zhiyuan Liang, an undergraduate student majoring in artifical intelligence at <a href="https://en.ustc.edu.cn/"> USTC</a>. 
   I'm currently an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>. 
   My research interests lie in Data Mining, LLM, Efficient AIs. I am also interested in generative models. 
-  I am currently seeking a PhD opportunity. <br> I publish a lot of open source projects on <a href="https://github.com/WangRongsheng">🔗Github</a> <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wangrongsheng?style=flat-square">. I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
+  I'm actively seeking for PhD opportuninties.
 
 show_portrait: true
 portrait_url: assets/images/photos/avatar.jpg
@@ -39,26 +37,26 @@ experience:
   date: Aug. 2024 - 
 
 
-awards:
-- name: Outstanding Award of JingDong Health - Global AI Innovation Competition
-  date: 2024
-- name: First Prize of Baidu PaddlePaddle AGI Hackathon
-  date: 2024
-- name: Third Prize of Digital Medical Technology and Application Innovation Competition
-  date: 2023
-- name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
-  date: 2023
-- name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
-  date: 2023
-- name: Outstanding Award of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
-  date: 2022
-- name: <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
-  date: 2021
+# awards:
+# - name: Outstanding Award of JingDong Health - Global AI Innovation Competition
+#   date: 2024
+# - name: First Prize of Baidu PaddlePaddle AGI Hackathon
+#   date: 2024
+# - name: Third Prize of Digital Medical Technology and Application Innovation Competition
+#   date: 2023
+# - name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
+#   date: 2023
+# - name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
+#   date: 2023
+# - name: Outstanding Award of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
+#   date: 2022
+# - name: <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
+#   date: 2021
 
-service:
-- name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
+# service:
+# - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
-footer_text: >-
-  Copyright © 2024 <a href="https://github.com/WangRongsheng" target="_blank">Rongsheng Wang</a>. All Rights Reserved.
+# footer_text: >-
+#   Copyright © 2024 <a href="https://github.com/WangRongsheng" target="_blank">Rongsheng Wang</a>. All Rights Reserved.
