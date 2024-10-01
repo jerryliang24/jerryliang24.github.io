@@ -16,13 +16,13 @@ resume: assets/cv/Resume_RongshengWang.pdf
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I am Zhiyuan Liang, an undergraduate student majoring in artifical intelligence at <a href="https://en.ustc.edu.cn/" USTC</a>. 
-  I'm currently an intern at <a href="https://ai.comp.nus.edu.sg/" NUS HPC AI Lab</a> under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>. 
-  My research interests lie in computer vision, LLM, trusted LLM, RAG, and Agent systems. I am also interested in generative data research. 
+  I am Zhiyuan Liang, an undergraduate student majoring in artifical intelligence at <a href="https://en.ustc.edu.cn/"> USTC</a>. 
+  I'm currently an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>. 
+  My research interests lie in Data Mining, LLM, Efficient AIs. I am also interested in generative models. 
   I am currently seeking a PhD opportunity. <br> I publish a lot of open source projects on <a href="https://github.com/WangRongsheng">🔗Github</a> <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wangrongsheng?style=flat-square">. I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
 
 show_portrait: true
-portrait_url: assets/images/photos/profile_wrs.jpg
+portrait_url: assets/images/photos/avatar.jpg
 portrait_caption: >-
   我是梁志远，欢迎访问我的主页~
 
@@ -33,10 +33,6 @@ education:
   date: Sep. 2021 - 
   
 experience:
-- name: IFLYTECH
-  logo: assets/images/badges/iflytech.png
-  position: Intern in Computer Vision
-  date: Aug. 2022 - Oct. 2022
 - name: National University of Singapore
   logo: assets/images/badges/nus.png
   position: Intern in High Performance Computing
