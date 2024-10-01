@@ -2,7 +2,7 @@ primary_name: "Zhiyuan Liang"
 secondary_name: ""
 navbar_name: "Zhiyuan Liang's Home Page"
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/Logo_of_University_of_Science_and_Technology_of_China.svg" alt="University of Science and Technology of China" class="inline-badge"/></span> B.S., University of Science and Technology of China (2024)'
+  - '<span class="no-break"><img src="assets/images/badges/Logo_of_University_of_Science_and_Technology_of_China.svg" alt="University of Science and Technology of China" class="inline-badge"/></span> University of Science and Technology of China (2024)'
 
 email: "2467953405lzy@gmail.com"
 gscholar: SSaBaioAAAAJ
@@ -16,6 +16,7 @@ resume: assets/cv/
 short_bio: >-
   I am Zhiyuan Liang, an undergraduate student majoring in artifical intelligence at <a href="https://en.ustc.edu.cn/"> USTC</a>. 
   I'm currently an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>. 
+  Before that, I worked as an intern at UNC Chapel Hill under the supervision of Professor <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>.
   My research interests lie in Data Mining, LLM, Efficient AIs. I am also interested in generative models. 
   I'm actively seeking for PhD opportuninties.
 
@@ -31,6 +32,10 @@ education:
   date: Sep. 2021 - 
   
 experience:
+- name: UNC Chapel Hill
+  logo: assets/images/badges/unc.png
+  position: Intern in LLM alignment
+  date: May. 2024 - 
 - name: National University of Singapore
   logo: assets/images/badges/nus.png
   position: Intern in High Performance Computing
