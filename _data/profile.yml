@@ -16,7 +16,8 @@ resume: assets/cv/
 short_bio: >-
   I am Zhiyuan Liang, an undergraduate student majoring in artifical intelligence at <a href="https://en.ustc.edu.cn/"> USTC</a>. 
   I'm currently an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>. 
-  Before that, I worked as an intern at UNC Chapel Hill under the supervision of Professor <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>.
+  Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
+  Before that, I spent 2 valuable years at <a href="https://data-science.ustc.edu.cn/_upload/tpl/14/e4/5348/template5348/tour.html">Lab of Data Science</a> at USTC supervised by Prof <a href="https://xiangwang1223.github.io/">Xiang Wang</a>.
   My research interests lie in Data Mining, LLM, Efficient AIs. I am also interested in generative models. 
   I'm actively seeking for PhD opportuninties.
 
@@ -32,6 +33,10 @@ education:
   date: Sep. 2021 - 
   
 experience:
+- name: Lab of Data Science 
+  logo: assets/images/badges/Logo_of_University_of_Science_and_Technology_of_China.svg
+  position: Undergraduate intern
+  date: Jan. 2022 - June. 2024
 - name: UNC Chapel Hill
   logo: assets/images/badges/unc.png
   position: Intern in LLM alignment
