@@ -56,7 +56,10 @@ redirect_from:
 [Zhangyang Wang<sup>+</sup>](https://www.ece.utexas.edu/people/faculty/atlas-wang), 
 [Kai Wang<sup>+</sup>](https://kaiwang960112.github.io/) (**<sup>+</sup> project lead**)
 
-We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter generator that enables training-free adaptation of large language models. By leveraging a lightweight text encoder and a cascaded hyperconvolutional decoder, DnD produces task-specific LoRA matrices from unlabeled task prompts in seconds. It achieves up to 12,000× lower overhead than full fine-tuning, outperforms the strongest training LoRAs by up to 30% on zero-shot common-sense reasoning, math, coding, and multimodal benchmarks, and generalizes robustly across domains, all requiring only unlabeled data prompts. Conclusively, DnD offers a powerful, flexible, and efficient alternative to traditional fine-tuning for rapid model specialization.
+We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter generator that enables training-free adaptation of large language models. It features: 
+  - Producing task-specific LoRA matrices from **unlabeled task prompts**.
+  - Generating weights for novel tasks in seconds, achieving up to **12,000×** lower overhead.
+  - Outperforming the strongest training LoRAs by up to **30%** on various zero-shot benchmarks.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2506.16406"> <strong>[paper]</strong></a>
