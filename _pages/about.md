@@ -124,7 +124,7 @@ ferent vision tasks. Our code will be made public at
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Raibows/CREAM/blob/main/figures/overview.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Cream: Consistency regularized self-rewarding language models**](https://arxiv.org/abs/2410.12735) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
+[**Cream: Consistency regularized self-rewarding language models**](https://arxiv.org/abs/2410.12735) <img src='https://img.shields.io/github/stars/Raibows/CREAM.svg?style=social&label=Star' alt="sym" height="100%">
 
 Zhaoyang Wang, Weilei He, **Zhiyuan Liang**, Xuchao Zhang, Chetan Bansal, Ying Wei, Weitong Zhang, Huaxiu Yao
 
