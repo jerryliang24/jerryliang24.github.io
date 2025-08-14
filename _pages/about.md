@@ -82,7 +82,7 @@ Our project is available at https://jerryliang24.github.io/DnD. </p>
 [**Dynamic Vision Mamba**](https://arxiv.org/abs/2504.04787) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
 
 
-Mengxuan Wu*, Zekai Li*†, **Zhiyuan Liang\***,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang‡,  Wangbo Zhao‡,  Yang You (**\* equal contribution,  † project lead,  ‡ corresponding author**)
+Mengxuan Wu\*, Zekai Li\*†, **Zhiyuan Liang\***,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang‡,  Wangbo Zhao‡,  Yang You (**\* equal contribution,  † project lead,  ‡ corresponding author**)
 
 We introduce **Dynamic Vision Mamba (DyVM)** 🚀, a dynamic inference framework for Mamba-based vision models that significantly reduces computation while preserving performance. It features:  
   - **Token-level efficiency**: Customized token pruning with sequence rearrangement to maintain consistency between training and inference.  
