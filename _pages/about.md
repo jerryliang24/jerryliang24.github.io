@@ -28,13 +28,13 @@ redirect_from:
 
 
 # 🔥 News
-- *2025.06*: 🎉I received bachelor degree in artificial intelligence's talents' class from USTC! 
+- *2025.06*: 🎉I received bachelor degree from USTC! 
 - *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/pdf/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
 - *2025.08*: 🐧 I join Tencent as an intern in multimodal understanding and parameter generation!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/pdf/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
