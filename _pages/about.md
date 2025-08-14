@@ -39,7 +39,7 @@ redirect_from:
 
 [**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/abs/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
 
-**Zhiyuan Liang <sup>&dagger;</sup>, 
+**Zhiyuan Liang†, 
 Dongwen Tang, 
 Yuhao Zhou, 
 Xuanlei Zhao, 
@@ -53,8 +53,8 @@ Damian Borth
 
 Michael M. Bronstein,
 Yang You, 
-Zhangyang Wang <sup>&dagger;</sup>, 
-Kai Wang <sup>&dagger;</sup> (**<sup>&dagger;</sup> project lead**)
+Zhangyang Wang†, 
+Kai Wang† (**† project lead**)
 
 We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter generator that enables training-free adaptation of large language models. It features: 
   - Producing task-specific LoRA matrices from **unlabeled task prompts**.
@@ -82,7 +82,7 @@ Our project is available at https://jerryliang24.github.io/DnD. </p>
 [**Dynamic Vision Mamba**](https://arxiv.org/abs/2504.04787) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
 
 
-Mengxuan Wu<sup>*</sup>, Zekai Li<sup>*&dagger;</sup>, **Zhiyuan Liang<sup>*</sup>**,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang <sup>&ddagger;</sup>,  Wangbo Zhao <sup>&ddagger;</sup>,  Yang You (**<sup>*</sup> equal contribution,  <sup>&dagger;</sup> project lead,  <sup>&ddagger;</sup> corresponding author**)
+Mengxuan Wu*, Zekai Li*†, **Zhiyuan Liang\***,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang‡,  Wangbo Zhao‡,  Yang You (**\* equal contribution,  † project lead,  ‡ corresponding author**)
 
 We introduce **Dynamic Vision Mamba (DyVM)** 🚀, a dynamic inference framework for Mamba-based vision models that significantly reduces computation while preserving performance. It features:  
   - **Token-level efficiency**: Customized token pruning with sequence rearrangement to maintain consistency between training and inference.  
