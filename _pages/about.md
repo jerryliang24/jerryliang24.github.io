@@ -29,7 +29,7 @@ redirect_from:
 
 # 🔥 News
 - *2025.06*: 🎉I received bachelor degree from USTC! 
-- *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/pdf/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
+- *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/abs/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
 - *2025.08*: 🐧 I join Tencent as an intern in multimodal understanding and parameter generation!
 
 # 📝 Publications 
@@ -37,24 +37,24 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/pdf/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
+[**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/abs/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
 
-**[Zhiyuan Liang<sup>+</sup>](https://jerryliang24.github.io/)**, 
-[Dongwen Tang](https://scholar.google.com/citations?user=9lKm_5IAAAAJ&hl=zh-CN&oi=ao), 
-[Yuhao Zhou](https://soptq.me/about/?lang=en), 
-[Xuanlei Zhao](https://oahzxl.github.io/), 
-[Mingjia Shi](https://bdemo.github.io/homepage/)
+**Zhiyuan Liang $^{\dagger}$**, 
+Dongwen Tang, 
+Yuhao Zhou, 
+Xuanlei Zhao, 
+Mingjia Shi，
 
-[Wangbo Zhao](https://wangbo-zhao.github.io/), 
-[Zekai Li](https://lizekai-richard.github.io/), 
-[Peihao Wang](https://peihaowang.github.io/), 
-[Konstantin Schürholt](https://kschuerholt.github.io/), 
-[Damian Borth](https://ics.unisg.ch/the-institute/about-us/team/detail/person-id/9fae509b-919c-4586-bb0b-9b25d71f193b/)
+Wangbo Zhao, 
+Zekai Li, 
+Peihao Wang, 
+Konstantin Schürholt, 
+Damian Borth
 
-[Michael M. Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), 
-[Yang You](https://www.comp.nus.edu.sg/~youy/), 
-[Zhangyang Wang<sup>+</sup>](https://www.ece.utexas.edu/people/faculty/atlas-wang), 
-[Kai Wang<sup>+</sup>](https://kaiwang960112.github.io/) (**<sup>+</sup> project lead**)
+Michael M. Bronstein,
+Yang You, 
+Zhangyang Wang $^{\dagger}$, 
+Kai Wang $^{\dagger}$ (**$^{\dagger}$ project lead**)
 
 We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter generator that enables training-free adaptation of large language models. It features: 
   - Producing task-specific LoRA matrices from **unlabeled task prompts**.
@@ -62,7 +62,7 @@ We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter gener
   - Outperforming the strongest training LoRAs by up to **30%** on various zero-shot benchmarks.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/pdf/2506.16406"> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/abs/2506.16406"> <strong>[paper]</strong></a>
     <a href="https://github.com/jerryliang24/Drag-and-Drop-LLMs"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
@@ -70,6 +70,48 @@ We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter gener
 prompt-checkpoint pairs, DnD produces task-specific parameters in seconds, yielding i) up to
 **12,000$\times$** lower overhead than full fine-tuning, ii) average gains up to **30\%** in performance over the strongest training LoRAs on unseen common-sense reasoning, math, coding, and multimodal benchmarks, and iii) robust cross-domain generalization despite never seeing the target data or labels. Our results demonstrate that prompt-conditioned parameter generation is a viable alternative to gradient-based adaptation for rapidly specializing LLMs.
 Our project is available at https://jerryliang24.github.io/DnD. </p>
+    </div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/NUS-HPC-AI-Lab/DyVM/blob/master/Asset/pipeline.png?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Dynamic Vision Mamba**](https://arxiv.org/abs/2504.04787) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
+
+Mengxuan Wu $^{*}$,  Zekai Li $^{*\dagger}$,  **Zhiyuan Liang $^{*}$**,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang $^{\ddagger}$,  Wangbo Zhao $^{\ddagger}$,  Yang You (**\* equal contribution,  $\dagger$ project lead,  $\ddagger$ corresponding author**)
+
+We introduce **Dynamic Vision Mamba (DyVM)** 🚀, a dynamic inference framework for Mamba-based vision models that significantly reduces computation while preserving performance. It features:  
+  - **Token-level efficiency**: Customized token pruning with sequence rearrangement to maintain consistency between training and inference.  
+  - **Block-level adaptivity**: Dynamic selection of SSM blocks per image, reducing redundancy based on input complexity.  
+  - **Strong efficiency-accuracy trade-off**: Achieves **35.2% FLOPs reduction** with only **1.7% accuracy drop** on Vim-S, and generalizes across architectures and vision tasks.
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2504.04787"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NUS-HPC-AI-Lab/DyVM"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Mamba-based vision models have gained extensive atten
+tion as a result of being computationally more efficient
+ than attention-based models. However, spatial redundancy
+ still exists in these models, represented by token and block
+ redundancy. For token redundancy, we analytically find
+ that early token pruning methods will result in inconsis
+tency between training and inference or introduce extra
+ computation for inference. Therefore, we customize to
+ken pruning to fit the Mamba structure by rearranging the
+ pruned sequence before feeding it into the next Mamba
+ block. For block redundancy, we allow each image to se
+lect SSM blocks dynamically based on an empirical ob
+servation that the inference speed of Mamba-based vision
+ models is largely affected by the number of SSM blocks.
+ Our proposed method, Dynamic Vision Mamba (DyVM),
+ effectively reduces FLOPs with minor performance drops.
+ We achieve a reduction of 35.2% FLOPs with only a loss
+ of accuracy of 1.7% on Vim-S. It also generalizes well
+ across different Mamba vision model architectures and dif
+ferent vision tasks. Our code will be made public at
+ https://github.com/NUS-HPC-AI-Lab/DyVM. </p>
     </div>
 </div>
 
