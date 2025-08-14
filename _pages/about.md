@@ -119,6 +119,52 @@ ferent vision tasks. Our code will be made public at
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Raibows/CREAM/blob/main/figures/overview.jpg?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Cream: Consistency regularized self-rewarding language models**](https://arxiv.org/abs/2410.12735) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
+
+Zhaoyang Wang, Weilei He, **Zhiyuan Liang**, Xuchao Zhang, Chetan Bansal, Ying Wei, Weitong Zhang, Huaxiu Yao
+
+**Consistency Regularized sElf-rewarding lAnguage Model (CREAM)** is a self-rewarding framework that improves LLM alignment without human-labeled preference data. It addresses the key issue of reward bias in iterative self-training by:  
+  - Formulating a generalized iterative preference fine-tuning framework with explicit consistency regularization.  
+  - Leveraging reward stability across iterations to produce more reliable preference labels.  
+  - Achieving superior alignment performance and higher reward consistency, even as smaller LLMs (e.g., 7B) face diminishing returns from standard self-rewarding.  
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2410.12735"> <strong>[paper]</strong></a>
+    <a href="https://github.com/Raibows/CREAM"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p>  LLM-as-a-Judge to iteratively improve the alignment performance without the
+ need of human annotations for preference data. These methods commonly utilize
+ the same LLM to act as both the policy model (which generates responses) and
+ the reward model (which scores and ranks those responses). The ranked responses
+ are then used as preference pairs to train the LLM via direct alignment technolo
+gies (e.g. DPO). However, it is noteworthy that throughout this process, there is
+ no guarantee of accuracy in the rewarding and ranking, which is critical for en
+suring accurate rewards and high-quality preference data. Empirical results from
+ relatively small LLMs (e.g., 7B parameters) also indicate that improvements from
+ self-rewarding may diminish after several iterations in certain situations, which
+ we hypothesize is due to accumulated bias in the reward system. This bias can
+ lead to unreliable preference data for training the LLM. To address this issue, we
+ first formulate and analyze the generalized iterative preference fine-tuning frame
+work for self-rewarding language model. We then introduce the regularization
+ to this generalized framework to mitigate the overconfident preference labeling
+ in the self-rewarding process. Based on this theoretical insight, we propose a
+ Consistency Regularized sElf-rewarding lAnguage Model (CREAM) that lever
+ages the consistency of rewards across different iterations to regularize the self
+rewarding training, helping the model to learn from more reliable preference data.
+ With this explicit regularization, our empirical results demonstrate the superior
+ity of CREAM in improving both reward consistency and alignment performance.
+ The code is publicly available at https://github.com/Raibows/CREAM. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <!-- # 🎖 Honors and Awards
 - *2021.10*  -->
 
