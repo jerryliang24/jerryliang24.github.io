@@ -39,7 +39,7 @@ redirect_from:
 
 [**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/abs/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
 
-**Zhiyuan Liang†, 
+**Zhiyuan Liang†**, 
 Dongwen Tang, 
 Yuhao Zhou, 
 Xuanlei Zhao, 
