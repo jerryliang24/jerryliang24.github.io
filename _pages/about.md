@@ -73,7 +73,8 @@ Our project is available at https://jerryliang24.github.io/DnD. </p>
     </div>
 </div>
 
-
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/NUS-HPC-AI-Lab/DyVM/blob/master/Asset/pipeline.png?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
