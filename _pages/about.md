@@ -39,7 +39,7 @@ redirect_from:
 
 [**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/pdf/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
 
-**[Zhiyuan Liang*](https://jerryliang24.github.io/)**, 
+**[Zhiyuan Liang<sup>+</sup>](https://jerryliang24.github.io/)**, 
 [Dongwen Tang](https://scholar.google.com/citations?user=9lKm_5IAAAAJ&hl=zh-CN&oi=ao), 
 [Yuhao Zhou](https://soptq.me/about/?lang=en), 
 [Xuanlei Zhao](https://oahzxl.github.io/), 
@@ -53,8 +53,8 @@ redirect_from:
 
 [Michael M. Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), 
 [Yang You](https://www.comp.nus.edu.sg/~youy/), 
-[Zhangyang Wang*](https://www.ece.utexas.edu/people/faculty/atlas-wang), 
-[Kai Wang*](https://kaiwang960112.github.io/) (**\* project lead**)
+[Zhangyang Wang<sup>+</sup>](https://www.ece.utexas.edu/people/faculty/atlas-wang), 
+[Kai Wang<sup>+</sup>](https://kaiwang960112.github.io/) (**<sup>+</sup> project lead**)
 
 We introduce Drag-and-Drop LLMs (DnD) 🥳, a prompt-conditioned parameter generator that enables training-free adaptation of large language models. By leveraging a lightweight text encoder and a cascaded hyperconvolutional decoder, DnD produces task-specific LoRA matrices from unlabeled task prompts in seconds. It achieves up to 12,000× lower overhead than full fine-tuning, outperforms the strongest training LoRAs by up to 30% on zero-shot common-sense reasoning, math, coding, and multimodal benchmarks, and generalizes robustly across domains, all requiring only unlabeled data prompts. Conclusively, DnD offers a powerful, flexible, and efficient alternative to traditional fine-tuning for rapid model specialization.
 
