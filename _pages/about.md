@@ -121,7 +121,7 @@ ferent vision tasks. Our code will be made public at
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/assets/figures/HASTE.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/assets/figures/HASTE.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**REPA Works Until It Doesn't: Early-Stopped, Holistic Alignment Supercharges Diffusion Training**](https://arxiv.org/abs/2505.16792) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/HASTE.svg?style=social&label=Star' alt="sym" height="100%">
