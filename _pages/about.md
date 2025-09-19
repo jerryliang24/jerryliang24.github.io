@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-  I am Zhiyuan Liang, an intern at <a href=""> Tencent</a> supervised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a>. 
+  I am Zhiyuan Liang, an intern at Tencent Hunyuan supervised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a>. 
 
   I'm extraodinarily fortunate to work as an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> for a fruitful year, under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>, and advised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a> and <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>.
   Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
@@ -28,13 +28,14 @@ redirect_from:
 
 
 # 🔥 News
+- *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators! 
 - *2025.08*: 🐧 I join Tencent as an intern in multimodal understanding and parameter generation!
 - *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/abs/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
 - *2025.06*: 🎉 I received bachelor degree from USTC! 
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights**](https://arxiv.org/abs/2506.16406) <img src='https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs.svg?style=social&label=Star' alt="sym" height="100%">
@@ -114,6 +115,53 @@ servation that the inference speed of Mamba-based vision
  across different Mamba vision model architectures and dif
 ferent vision tasks. Our code will be made public at
  https://github.com/NUS-HPC-AI-Lab/DyVM. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/assets/figures/HASTE.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**REPA Works Until It Doesn't: Early-Stopped, Holistic Alignment Supercharges Diffusion Training**](https://arxiv.org/abs/2505.16792) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/HASTE.svg?style=social&label=Star' alt="sym" height="100%">
+
+Ziqiao Wang\∗, Wangbo Zhao\∗, Yuhao Zhou, Zekai Li, **Zhiyuan Liang**, Mingjia Shi, Xuanlei Zhao, Pengfei Zhou, Kaipeng Zhang†, Zhangyang Wang, Kai Wang†, Yang You (**\* equal contribution, † corresponding author**)
+
+ Representation alignment
+ (REPA) that matches Diffusion Transformer (DiT) hidden features to a self-supervised encoder
+ (e.g. DINO)—dramatically accelerates the early epochs but plateaus or even de
+grades performance later. We trace this failure to a capacity mismatch in gradient directions of repsentation and denoising task, and introduce **HASTE** (Holistic Alignment with Stage-wise
+ Termination for Efficient training), a two-phase DiT training schedule that keeps the help and
+ drops the hindrance. 
+On ImageNet 256×256, it a 28× reduction in optimization steps. HASTE also improves text-to-image DiTs on MS-COCO, demonstrating to be a simple yet principled recipe
+ for efficient diffusion training across various tasks.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2505.16792"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NUS-HPC-AI-Lab/HASTE"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p>  Diffusion Transformers (DiTs) deliver state-of-the-art image quality, yet their
+        training remains notoriously slow. A recent remedy—representation alignment
+        (REPA) that matches DiT hidden features to those of a non-generative teacher
+        (e.g. DINO)—dramatically accelerates the early epochs but plateaus or even de
+        grades performance later. We trace this failure to a capacity mismatch: once
+        the generative student begins modelling the joint data distribution, the teacher’s
+        lower-dimensional embeddings and attention patterns become a straitjacket rather
+        than a guide. We then introduce HASTE (Holistic Alignment with Stage-wise
+        Termination for Efficient training), a two-phase schedule that keeps the help and
+        drops the hindrance. Phase I applies a holistic alignment loss that simultaneously
+        distills attention maps (relational priors) and feature projections (semantic anchors)
+        from the teacher into mid-level layers of the DiT, yielding rapid convergence.
+        Phase II then performs one-shot termination that deactivates the alignment loss,
+        once a simple trigger such as a fixed iteration is hit, freeing the DiT to focus on
+        denoising and exploit its generative capacity. HASTE speeds up training of diverse
+        DiTs without architecture changes. On ImageNet 256×256, it reaches the vanilla
+        SiT-XL/2 baseline FID in 50epochs and matches REPA’s best FID in 500epochs,
+        amounting to a 28× reduction in optimization steps. HASTE also improves text
+        to-image DiTs on MS-COCO, demonstrating to be a simple yet principled recipe
+        for efficient diffusion training across various tasks. Our code is available here.  </p>
     </div>
 </div>
 
