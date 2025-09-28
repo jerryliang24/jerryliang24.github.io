@@ -21,6 +21,7 @@ redirect_from:
 
   I'm extraodinarily fortunate to work as an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> for a fruitful year, under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>, and advised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a> and <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>.
   Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
+  Before that, I was fortunate to start my journey of research at the <a href="https://data-science.ustc.edu.cn">Lab of Data Science</a> supervised by Prof.<a href="https://xiangwang1223.github.io/">Xiang Wang</a> and Prof.<a href="https://hexiangnan.github.io/">Xiangnan He</a>.
 
   My research interest lies in **Parameter Generation** and **Multimodal Understanding**, obtaining higher level of intelligence from the angle of weight space learning, and exploring the unified learning paradigm across various modalities.
   I'm actively seeking for PhD opportuninties.
@@ -126,7 +127,7 @@ ferent vision tasks. Our code will be made public at
 
 [**REPA Works Until It Doesn't: Early-Stopped, Holistic Alignment Supercharges Diffusion Training**](https://arxiv.org/abs/2505.16792) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/HASTE.svg?style=social&label=Star' alt="sym" height="100%">
 
-Ziqiao Wang\∗, Wangbo Zhao\∗, Yuhao Zhou, Zekai Li, **Zhiyuan Liang**, Mingjia Shi, Xuanlei Zhao, Pengfei Zhou, Kaipeng Zhang†, Zhangyang Wang, Kai Wang†, Yang You (**\* equal contribution, † corresponding author**)
+Ziqiao Wang∗, Wangbo Zhao∗, Yuhao Zhou, Zekai Li, **Zhiyuan Liang**, Mingjia Shi, Xuanlei Zhao, Pengfei Zhou, Kaipeng Zhang†, Zhangyang Wang, Kai Wang†, Yang You (**\* equal contribution, † corresponding author**)
 
  Representation alignment
  (REPA) that matches Diffusion Transformer (DiT) hidden features to a self-supervised encoder
@@ -224,6 +225,7 @@ ity of CREAM in improving both reward consistency and alignment performance.
 - *2021.06*,  -->
 
 # 💻 Internships
+- *2023.01 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. Mentor: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
 - *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. Mentor: [Huaxiu Yao](https://www.huaxiuyao.io/).
 - *2024.08 - 2025.08*, National University of Singapore, Research Intern. Mentor: [Yang You](https://www.comp.nus.edu.sg/~youy/). Advisor: [Kaiwang](https://kaiwang960112.github.io/), [Wangbo Zhao](https://wangbo-zhao.github.io/).
 - *2024.08 - now* Tencent, Intern in Multimodal Understanding and Parameter Generation. Mentor: [Kai Wang](https://kaiwang960112.github.io/).
