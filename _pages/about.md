@@ -225,7 +225,7 @@ ity of CREAM in improving both reward consistency and alignment performance.
 - *2021.06*,  -->
 
 # 💻 Internships
-- *2023.01 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. Mentor: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
+- *2023.03 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. Mentor: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
 - *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. Mentor: [Huaxiu Yao](https://www.huaxiuyao.io/).
 - *2024.08 - 2025.08*, National University of Singapore, Research Intern. Mentor: [Yang You](https://www.comp.nus.edu.sg/~youy/). Advisor: [Kaiwang](https://kaiwang960112.github.io/), [Wangbo Zhao](https://wangbo-zhao.github.io/).
 - *2024.08 - now* Tencent, Intern in Multimodal Understanding and Parameter Generation. Mentor: [Kai Wang](https://kaiwang960112.github.io/).
