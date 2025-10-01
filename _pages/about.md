@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-  I am Zhiyuan Liang, an intern at Tencent Hunyuan supervised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a>. 
+  I am Zhiyuan Liang, who just graduated from <a href="https://www.ustc.edu.cn/">USTC</a>. 
 
-  I'm extraodinarily fortunate to work as an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> for a fruitful year, under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>, and advised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a> and <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>.
+  I'm extraodinarily fortunate to work as an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> for a fruitful year, under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>, and advised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a> and Dr. <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>.
   Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
   Before that, I was fortunate to start my journey of research at the <a href="https://data-science.ustc.edu.cn">Lab of Data Science</a> supervised by Prof.<a href="https://xiangwang1223.github.io/">Xiang Wang</a> and Prof.<a href="https://hexiangnan.github.io/">Xiangnan He</a>.
 
@@ -228,4 +228,3 @@ ity of CREAM in improving both reward consistency and alignment performance.
 - *2023.03 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. Mentor: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
 - *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. Mentor: [Huaxiu Yao](https://www.huaxiuyao.io/).
 - *2024.08 - 2025.08*, National University of Singapore, Research Intern. Mentor: [Yang You](https://www.comp.nus.edu.sg/~youy/). Advisor: [Kaiwang](https://kaiwang960112.github.io/), [Wangbo Zhao](https://wangbo-zhao.github.io/).
-- *2024.08 - now* Tencent, Intern in Multimodal Understanding and Parameter Generation. Mentor: [Kai Wang](https://kaiwang960112.github.io/).
