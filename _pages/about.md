@@ -23,14 +23,13 @@ redirect_from:
   Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
   Before that, I was fortunate to start my journey of research at the <a href="https://data-science.ustc.edu.cn">Lab of Data Science</a> supervised by Prof.<a href="https://xiangwang1223.github.io/">Xiang Wang</a> and Prof.<a href="https://hexiangnan.github.io/">Xiangnan He</a>.
 
-  My research interest lies in **Parameter Generation** and **Multimodal Understanding**, obtaining higher level of intelligence from the angle of weight space learning, and exploring the unified learning paradigm across various modalities.
+  My research interest lies at the intersection of **Large Language Models** and **Multimodal Understanding**. I am also trying to obtain higher level of intelligence from the angle of weight space learning, and explore the unified learning paradigm across various modalities.
   I'm actively seeking for PhD opportuninties.
 
 
 
 # 🔥 News
 - *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators! 
-- *2025.08*: 🐧 I join Tencent as an intern in multimodal understanding and parameter generation!
 - *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/abs/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
 - *2025.06*: 🎉 I received bachelor degree from USTC! 
 
