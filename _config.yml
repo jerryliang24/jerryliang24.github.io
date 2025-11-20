@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhiyuan Liang"
   avatar           : "images/avatar.jpg"
-  bio              : "Tencent"
-  location         : "Shenzhen, China"
+  bio              : "USTC"
+  location         : "Hefei, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=E-614OcAAAAJ"
