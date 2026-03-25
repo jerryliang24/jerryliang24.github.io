@@ -77,50 +77,6 @@ Our project is available at https://jerryliang24.github.io/DnD. </p>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/NUS-HPC-AI-Lab/DyVM/blob/master/Asset/pipeline.png?raw=true' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**Dynamic Vision Mamba**](https://arxiv.org/abs/2504.04787) <img src='https://img.shields.io/github/stars/NUS-HPC-AI-Lab/DyVM.svg?style=social&label=Star' alt="sym" height="100%">
-
-
-Mengxuan Wu\*, Zekai Li\*†, **Zhiyuan Liang\***,  Moyang Li,  Xuanlei Zhao,  Samir Khaki,  Zheng Zhu,  Xiaojiang Peng,  Konstantinos N. Plataniotis,  Kai Wang‡,  Wangbo Zhao‡,  Yang You (**\* equal contribution,  † project lead,  ‡ corresponding author**)
-
-We introduce **Dynamic Vision Mamba (DyVM)** 🚀, a dynamic inference framework for Mamba-based vision models that significantly reduces computation while preserving performance. It features:  
-  - **Token-level efficiency**: Customized token pruning with sequence rearrangement to maintain consistency between training and inference.  
-  - **Block-level adaptivity**: Dynamic selection of SSM blocks per image, reducing redundancy based on input complexity.  
-  - **Strong efficiency-accuracy trade-off**: Achieves **35.2% FLOPs reduction** with only **1.7% accuracy drop** on Vim-S, and generalizes across architectures and vision tasks.
-<div style="display: inline">
-    <a href="https://arxiv.org/abs/2504.04787"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NUS-HPC-AI-Lab/DyVM"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">  
-        <p> Mamba-based vision models have gained extensive atten
-tion as a result of being computationally more efficient
- than attention-based models. However, spatial redundancy
- still exists in these models, represented by token and block
- redundancy. For token redundancy, we analytically find
- that early token pruning methods will result in inconsis
-tency between training and inference or introduce extra
- computation for inference. Therefore, we customize to
-ken pruning to fit the Mamba structure by rearranging the
- pruned sequence before feeding it into the next Mamba
- block. For block redundancy, we allow each image to se
-lect SSM blocks dynamically based on an empirical ob
-servation that the inference speed of Mamba-based vision
- models is largely affected by the number of SSM blocks.
- Our proposed method, Dynamic Vision Mamba (DyVM),
- effectively reduces FLOPs with minor performance drops.
- We achieve a reduction of 35.2% FLOPs with only a loss
- of accuracy of 1.7% on Vim-S. It also generalizes well
- across different Mamba vision model architectures and dif
-ferent vision tasks. Our code will be made public at
- https://github.com/NUS-HPC-AI-Lab/DyVM. </p>
-    </div>
-</div>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/assets/figures/HASTE.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -147,7 +103,7 @@ On ImageNet 256×256, it a 28× reduction in optimization steps. HASTE also impr
         (REPA) that matches DiT hidden features to those of a non-generative teacher
         (e.g. DINO)—dramatically accelerates the early epochs but plateaus or even de
         grades performance later. We trace this failure to a capacity mismatch: once
-        the generative student begins modelling the joint data distribution, the teacher’s
+        the generative student begins modelling the joint data distribution, the teacher's
         lower-dimensional embeddings and attention patterns become a straitjacket rather
         than a guide. We then introduce HASTE (Holistic Alignment with Stage-wise
         Termination for Efficient training), a two-phase schedule that keeps the help and
@@ -158,7 +114,7 @@ On ImageNet 256×256, it a 28× reduction in optimization steps. HASTE also impr
         once a simple trigger such as a fixed iteration is hit, freeing the DiT to focus on
         denoising and exploit its generative capacity. HASTE speeds up training of diverse
         DiTs without architecture changes. On ImageNet 256×256, it reaches the vanilla
-        SiT-XL/2 baseline FID in 50epochs and matches REPA’s best FID in 500epochs,
+        SiT-XL/2 baseline FID in 50epochs and matches REPA's best FID in 500epochs,
         amounting to a 28× reduction in optimization steps. HASTE also improves text
         to-image DiTs on MS-COCO, demonstrating to be a simple yet principled recipe
         for efficient diffusion training across various tasks. Our code is available here.  </p>
