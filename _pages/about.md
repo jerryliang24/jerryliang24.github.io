@@ -17,20 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-  I am Zhiyuan Liang, who just graduated from <a href="https://www.ustc.edu.cn/">USTC</a>. 
+  I am Zhiyuan Liang, who is a PhD student at University of Michigan supervised by Prof. <a href="http://yanranwang.com/">Joyce Yan-Ran Wang</a> and Prof. <a href="https://websites.umich.edu/~wluee/">Wei Lu</a>.
 
-  I'm extraodinarily fortunate to work as an intern at <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a> for a fruitful year, under the supervision of Prof.<a href="https://www.comp.nus.edu.sg/~youy/">Yang You</a>, and advised by Dr. <a href="https://kaiwang960112.github.io/">Kai Wang</a> and Dr. <a href="https://wangbo-zhao.github.io/">Wangbo Zhao</a>.
-  Before that, I worked as an intern at UNC Chapel Hill under the supervision of Prof <a href="https://www.huaxiuyao.io/"> Huaxiu Yao </a>. 
-  Before that, I was fortunate to start my journey of research at the <a href="https://data-science.ustc.edu.cn">Lab of Data Science</a> supervised by Prof.<a href="https://xiangwang1223.github.io/">Xiang Wang</a> and Prof.<a href="https://hexiangnan.github.io/">Xiangnan He</a>.
+  Previously, I received my bachelor degree from University of Science and Technology of China. During my undergraduate studies, I was fortunate to intern at <a href="https://data-science.ustc.edu.cn">USTC Lab of Data Science</a>, <a href="https://www.huaxiuyao.io/aiming-lab">UNC AIMING Lab</a>, and <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a>.
 
-  My research interest lies at the intersection of **Large Language Models** and **Multimodal Understanding**. I am also trying to obtain higher level of intelligence from the angle of weight space learning, and explore the unified learning paradigm across various modalities.
-  I'm actively seeking for PhD opportuninties.
+  My research interest lies at the intersection of **Large Language Models** and **Efficient Machine Learning**. I am actively exploring foundation model pretraining, LLM reasoning and agentic adaptation, as well as other interesting directions.
 
 
 
 # 🔥 News
-- *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators! 
-- *2025.07*: 🌟 Our new work, Drag-and-Drop LLMs, customizes LLMs in seconds without tuning! Check our [paper](https://arxiv.org/abs/2506.16406) and [code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)! 
+- *2026.02*: 🎓 Start my new journey at Umich, go blue!
+- *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators!
 - *2025.06*: 🎉 I received bachelor degree from USTC! 
 
 # 📝 Selected Publications 
@@ -180,6 +177,6 @@ ity of CREAM in improving both reward consistency and alignment performance.
 - *2021.06*,  -->
 
 # 💻 Internships
-- *2023.03 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. Mentor: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
-- *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. Mentor: [Huaxiu Yao](https://www.huaxiuyao.io/).
-- *2024.08 - 2025.08*, National University of Singapore, Research Intern. Mentor: [Yang You](https://www.comp.nus.edu.sg/~youy/). Advisor: [Kaiwang](https://kaiwang960112.github.io/), [Wangbo Zhao](https://wangbo-zhao.github.io/).
+- *2023.03 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. PI: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
+- *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. PI: [Huaxiu Yao](https://www.huaxiuyao.io/).
+- *2024.08 - 2025.08*, National University of Singapore, Research Intern. PI: [Yang You](https://www.comp.nus.edu.sg/~youy/).
