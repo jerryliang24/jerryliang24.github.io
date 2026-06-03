@@ -19,7 +19,7 @@ redirect_from:
 
   I am Zhiyuan Liang, who is a PhD student at University of Michigan supervised by Prof. <a href="http://yanranwang.com/">Joyce Yan-Ran Wang</a> and Prof. <a href="https://websites.umich.edu/~wluee/">Wei Lu</a>.
 
-  Previously, I received my bachelor degree from University of Science and Technology of China. During my undergraduate studies, I was fortunate to intern at <a href="https://data-science.ustc.edu.cn">USTC Lab of Data Science</a>, <a href="https://www.huaxiuyao.io/aiming-lab">UNC AIMING Lab</a>, and <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a>.
+  Previously, I received my bachelor degree from University of Science and Technology of China. During my undergraduate studies, I was fortunate to do research at <a href="https://data-science.ustc.edu.cn">USTC Lab of Data Science</a>, <a href="https://www.huaxiuyao.io/aiming-lab">UNC AIMING Lab</a>, and <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a>.
 
   My research interest lies at the intersection of **Large Language Models** and **Efficient Machine Learning**. I am actively exploring foundation model pretraining, LLM reasoning and agentic adaptation, as well as other interesting directions.
 
@@ -176,7 +176,7 @@ ity of CREAM in improving both reward consistency and alignment performance.
 <!-- # 💬 Invited Talks
 - *2021.06*,  -->
 
-# 💻 Internships
+# 💻 Research Experience
 - *2023.03 - 2024.06*, University of Science and Technology of China, Undergraduate Research Intern. PI: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
 - *2024.05 - 2024.10*, University of North Carolina at Chapel Hill, Research Intern. PI: [Huaxiu Yao](https://www.huaxiuyao.io/).
 - *2024.08 - 2025.08*, National University of Singapore, Research Intern. PI: [Yang You](https://www.comp.nus.edu.sg/~youy/).
