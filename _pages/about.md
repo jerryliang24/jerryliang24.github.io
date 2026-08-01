@@ -17,16 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-  I am Zhiyuan Liang, an incoming PhD student at University of Michigan supervised by Prof. <a href="http://yanranwang.com/">Joyce Yan-Ran Wang</a> and Prof. <a href="https://websites.umich.edu/~wluee/">Wei Lu</a>.
-
-  Previously, I received my bachelor degree from University of Science and Technology of China. During my undergraduate studies, I was fortunate to do research at <a href="https://data-science.ustc.edu.cn">USTC Lab of Data Science</a>, <a href="https://www.huaxiuyao.io/aiming-lab">UNC AIMING Lab</a>, and <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a>.
+  I am Zhiyuan Liang, who received my bachelor degree from University of Science and Technology of China. During my undergraduate studies, I was fortunate to do research at <a href="https://data-science.ustc.edu.cn">USTC Lab of Data Science</a>, <a href="https://www.huaxiuyao.io/aiming-lab">UNC AIMING Lab</a>, and <a href="https://ai.comp.nus.edu.sg/"> NUS HPC AI Lab</a>.
 
   My research interest lies at the intersection of **Large Language Models** and **Efficient Machine Learning**. I am actively exploring foundation model pretraining, LLM reasoning and agentic adaptation, as well as other interesting directions.
 
 
 
 # 🔥 News
-- *2026.02*: 🎓 Start my new journey at Umich, go blue!
+<!-- - *2026.02*: 🎓 Start my new journey at Umich, go blue! -->
 - *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators!
 - *2025.06*: 🎉 I received bachelor degree from USTC! 
 
