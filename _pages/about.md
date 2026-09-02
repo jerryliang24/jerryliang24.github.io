@@ -24,11 +24,36 @@ redirect_from:
 
 
 # 🔥 News
-<!-- - *2026.02*: 🎓 Start my new journey at Umich, go blue! -->
+- *2026.09*: 🥳 KSA got accepted to EMNLP 2026 findings! Congratulations to all!
 - *2025.09*: 🥳 DnD and other 2 papers accpeted to NeurIPS 2025! Thanks all collaborators!
 - *2025.06*: 🎉 I received bachelor degree from USTC! 
 
 # 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='https://github.com/Kuaishou-OneRec/KSA/blob/main/assets/figures/mainmodel.png?raw=true' alt="KSA architecture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Kwai Summary Attention Technical Report**](https://arxiv.org/abs/2604.24432) <img src='https://img.shields.io/github/stars/Kuaishou-OneRec/KSA.svg?style=social&label=Star' alt="GitHub stars" height="100%">
+
+Kwai OneRec Team (Core Contributor)
+
+We introduce **Kwai Summary Attention (KSA)**, an efficient attention mechanism for long-context modeling that compresses distant history into learnable summary tokens while retaining fine-grained access to recent context. It features:
+
+  - Reducing sequence-level KV-cache growth from **O(N)** to **O(N/R)**, reflected by **2.5× smaller KV cache** than Full Attention at 128K context.
+  - Combining KSA and Full Attention in a hybrid architecture through pre-training experiments.
+  - Design efficient CUDA & Triton kernels for better training throughput and optimized memory consumption.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2604.24432"> <strong>[paper]</strong></a>
+    <a href="https://github.com/Kuaishou-OneRec/KSA"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract" style="overflow: hidden; display: none;">
+        <p>Long-context modeling is increasingly important for language understanding, reasoning, coding agents, and recommendation systems, but standard softmax attention becomes expensive as sequences grow. KSA introduces a middle ground between per-token KV caching and aggressively compressed alternatives: it inserts learnable summary tokens at regular chunk boundaries to retain distant information at a controllable semantic compression ratio. This design reduces the cache required for long sequences while preserving referential and interpretable access to earlier context, and it can be combined with head- and dimension-level compression methods such as GQA and MLA.</p>
+    </div>
+</div>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/jerryliang24/jerryliang24.github.io/blob/main/DnD/static/images/pipeline.jpg?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -173,6 +198,10 @@ ity of CREAM in improving both reward consistency and alignment performance.
 
 <!-- # 💬 Invited Talks
 - *2021.06*,  -->
+
+# 💼 Internship
+- *2026.03 - 2026.08*, Kuaishou OneRec Team.
+
 
 # 💻 Research Experience
 - *2023.03 - 2024.06*, University of Science and Technology of China. PI: [Xiang Wang](https://xiangwang1223.github.io/), [Xiangnan He](https://hexiangnan.github.io/).
